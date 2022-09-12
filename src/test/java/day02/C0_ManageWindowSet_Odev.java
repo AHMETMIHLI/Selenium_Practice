@@ -5,7 +5,7 @@ import org.openqa.selenium.Point;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class C02_ManageWindowSet {
+public class C0_ManageWindowSet_Odev {
     public static void main(String[] args) {
         /*
         1-Yeni bir class oluşturalım
