@@ -18,6 +18,6 @@ public class C03_Tekrar3 {
 
         if(sayfaKaynakKodlari.contains(arananKelime)){
             System.out.println("Kaynak kodu testi PASSED");
-        }else System.out.println("Kaynak kodlarında : "+ arananKelime+ " yok test FAILED");
+        }else System.out.println("Kaynak kodu testi FAILED");
     }
 }

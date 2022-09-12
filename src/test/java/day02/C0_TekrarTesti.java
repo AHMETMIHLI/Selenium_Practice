@@ -72,7 +72,7 @@ public class C0_TekrarTesti {
         String arananTitleA="Amazon";
         if(actualTitle.contains(arananTitleA)){
             System.out.println("Aranan title :"+ arananTitleA+ " PASSED");
-        }else System.out.println("Aranan title : "+ arananTitleA+ " FAILED");
+        }else System.out.println("Aranan title  FAILED. Actual Title :"+ driver.getTitle());
 
         //10.Sayfa URL'sinin https://www.amazon.com/ olup olmadığını doğrulayın, degilse doğru
         //URL'yi yazdırın
@@ -80,7 +80,7 @@ public class C0_TekrarTesti {
         String arananUrlA="https://www.amazon.com/";
         if(actualUrl.contains(arananUrlA)){
             System.out.println("Actual URL :"+ arananUrlA+ " PASSED");
-        }else System.out.println("Actual URL : "+ arananUrlA+ " FAILED");
+        }else System.out.println("Aranan URL FAILED .Actual URL :  "+ driver.getCurrentUrl());
 
         // 11.Sayfayi kapatin
         Thread.sleep(3000);

@@ -32,7 +32,7 @@ public class C0_Homework {
         String arananTitle="facebook";
         if(sayfaBasligi.contains(arananTitle)){
             System.out.println("Aranan title PASSED");
-        }else System.out.println("Aranan title FAILED, Aranan titli : "+ arananTitle);   // Aranan title FAILED, Aranan titli : facebook
+        }else System.out.println("Aranan title FAILED, Aranan titli : "+ driver.getTitle());   // Aranan title FAILED, Aranan titli : facebook
 
        // 3.Sayfa URL'inin "facebook" kelimesi icerdigini dogrulayin, icermiyorsa "actual" URL'i
        // yazdirin.
@@ -41,7 +41,7 @@ public class C0_Homework {
         String arananUrl="facebook";
         if(urlfacebook.contains(arananUrl)){
             System.out.println("aranan Url :"+ arananUrl+ " PASSED");     //aranan Url :facebook PASSED
-        }else System.out.println("Aranan URL "+ arananUrl +"  FAILED ");
+        }else System.out.println("Aranan URL  FAILED. Aranan URL : "+ driver.getCurrentUrl());
 
 
         // 4.https://www.walmart.com/ sayfasina gidin.
@@ -54,7 +54,7 @@ public class C0_Homework {
         String arananTitleWalMart="Walmart.com";
         if(sayfaBasligiWalMart.contains(arananTitleWalMart)){
             System.out.println("Aranan Title  PASSED");            //Aranan Title  PASSED
-        }else System.out.println("Aranan : "+ arananTitle +"  FAILED");
+        }else System.out.println("Aranan Title  FAILED . Title :  "+ driver.getTitle());
 
         //6. Tekrar "facebook" sayfasina donun
         Thread.sleep(3000);

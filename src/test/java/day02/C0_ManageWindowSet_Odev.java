@@ -32,6 +32,7 @@ public class C0_ManageWindowSet_Odev {
 
 
         //5-
+
         System.out.println("Sayfanın istenen koordinat konumu : "+ driver.manage().window().getPosition());
         System.out.println("Sayfanın istenen boyut ölçüleri : "+ driver.manage().window().getSize());
 
